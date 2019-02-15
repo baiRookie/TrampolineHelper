@@ -1,0 +1,25 @@
+PODS:
+  - CTMediator (25)
+  - RJBluetooth (0.2.2):
+    - CTMediator
+  - RJBluetooth_Mediator (0.2.2):
+    - RJBluetooth
+
+DEPENDENCIES:
+  - RJBluetooth_Mediator
+
+SPEC REPOS:
+  https://github.com/A-Jun/XiaoYuSpecs.git:
+    - RJBluetooth
+    - RJBluetooth_Mediator
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  RJBluetooth: e8bbf350f3c28e1c9b1049ffc7b40946f39f8781
+  RJBluetooth_Mediator: e8007cc477b846c2f07143497ad78e7b73d42034
+
+PODFILE CHECKSUM: 5cb2ec8ad2bc5f0c2768e242463cdd6176c36154
+
+COCOAPODS: 1.5.3

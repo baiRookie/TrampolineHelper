@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104B790EE60042825D8F1F60 /* Pods_BengChuang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B7A3EA2A6B6B57D781915 /* Pods_BengChuang.framework */; };
+		661BA5D322165CE8008AF1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661BA5D222165CE8008AF1C6 /* AppDelegate.swift */; };
+		661BA5D522165CE8008AF1C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661BA5D422165CE8008AF1C6 /* ViewController.swift */; };
+		661BA5D822165CE8008AF1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661BA5D622165CE8008AF1C6 /* Main.storyboard */; };
+		661BA5DA22165CEC008AF1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661BA5D922165CEC008AF1C6 /* Assets.xcassets */; };
+		661BA5DD22165CEC008AF1C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661BA5DB22165CEC008AF1C6 /* LaunchScreen.storyboard */; };
+		661BA5EA22165D5F008AF1C6 /* RJSensorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661BA5E522165D5E008AF1C6 /* RJSensorModel.swift */; };
+		661BA5EB22165D5F008AF1C6 /* Target_BC_BluetoothHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661BA5E622165D5E008AF1C6 /* Target_BC_BluetoothHelper.swift */; };
+		661BA5EC22165D5F008AF1C6 /* CTMediator+XiaoYu_Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661BA5E722165D5E008AF1C6 /* CTMediator+XiaoYu_Bluetooth.swift */; };
+		661BA5ED22165D5F008AF1C6 /* RJBluetoothHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661BA5E822165D5E008AF1C6 /* RJBluetoothHelper.swift */; };
+		661BA5EE22165D5F008AF1C6 /* RJFirmwareVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661BA5E922165D5E008AF1C6 /* RJFirmwareVersionModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20DC962D4903C2C837B0FF95 /* Pods-BengChuang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BengChuang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BengChuang/Pods-BengChuang.debug.xcconfig"; sourceTree = "<group>"; };
+		52E5A37FD6C48135C5221675 /* Pods-BengChuang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BengChuang.release.xcconfig"; path = "Pods/Target Support Files/Pods-BengChuang/Pods-BengChuang.release.xcconfig"; sourceTree = "<group>"; };
+		572B7A3EA2A6B6B57D781915 /* Pods_BengChuang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BengChuang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661BA5CF22165CE8008AF1C6 /* BengChuang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BengChuang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661BA5D222165CE8008AF1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		661BA5D422165CE8008AF1C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		661BA5D722165CE8008AF1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		661BA5D922165CEC008AF1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		661BA5DC22165CEC008AF1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		661BA5DE22165CEC008AF1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661BA5E522165D5E008AF1C6 /* RJSensorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJSensorModel.swift; sourceTree = "<group>"; };
+		661BA5E622165D5E008AF1C6 /* Target_BC_BluetoothHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_BC_BluetoothHelper.swift; sourceTree = "<group>"; };
+		661BA5E722165D5E008AF1C6 /* CTMediator+XiaoYu_Bluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTMediator+XiaoYu_Bluetooth.swift"; sourceTree = "<group>"; };
+		661BA5E822165D5E008AF1C6 /* RJBluetoothHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJBluetoothHelper.swift; sourceTree = "<group>"; };
+		661BA5E922165D5E008AF1C6 /* RJFirmwareVersionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJFirmwareVersionModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661BA5CC22165CE8008AF1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104B790EE60042825D8F1F60 /* Pods_BengChuang.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B79AC9AA5CE72C162CD6384 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20DC962D4903C2C837B0FF95 /* Pods-BengChuang.debug.xcconfig */,
+				52E5A37FD6C48135C5221675 /* Pods-BengChuang.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		661BA5C622165CE8008AF1C6 = {
+			isa = PBXGroup;
+			children = (
+				661BA5D122165CE8008AF1C6 /* BengChuang */,
+				661BA5D022165CE8008AF1C6 /* Products */,
+				0B79AC9AA5CE72C162CD6384 /* Pods */,
+				6E61F46976A14841786D7C80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		661BA5D022165CE8008AF1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661BA5CF22165CE8008AF1C6 /* BengChuang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661BA5D122165CE8008AF1C6 /* BengChuang */ = {
+			isa = PBXGroup;
+			children = (
+				661BA5E422165D5E008AF1C6 /* 蓝牙 */,
+				661BA5D222165CE8008AF1C6 /* AppDelegate.swift */,
+				661BA5D422165CE8008AF1C6 /* ViewController.swift */,
+				661BA5D622165CE8008AF1C6 /* Main.storyboard */,
+				661BA5D922165CEC008AF1C6 /* Assets.xcassets */,
+				661BA5DB22165CEC008AF1C6 /* LaunchScreen.storyboard */,
+				661BA5DE22165CEC008AF1C6 /* Info.plist */,
+			);
+			path = BengChuang;
+			sourceTree = "<group>";
+		};
+		661BA5E422165D5E008AF1C6 /* 蓝牙 */ = {
+			isa = PBXGroup;
+			children = (
+				661BA5E522165D5E008AF1C6 /* RJSensorModel.swift */,
+				661BA5E622165D5E008AF1C6 /* Target_BC_BluetoothHelper.swift */,
+				661BA5E722165D5E008AF1C6 /* CTMediator+XiaoYu_Bluetooth.swift */,
+				661BA5E822165D5E008AF1C6 /* RJBluetoothHelper.swift */,
+				661BA5E922165D5E008AF1C6 /* RJFirmwareVersionModel.swift */,
+			);
+			path = "蓝牙";
+			sourceTree = "<group>";
+		};
+		6E61F46976A14841786D7C80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				572B7A3EA2A6B6B57D781915 /* Pods_BengChuang.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661BA5CE22165CE8008AF1C6 /* BengChuang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661BA5E122165CEC008AF1C6 /* Build configuration list for PBXNativeTarget "BengChuang" */;
+			buildPhases = (
+				30DDC5BA2B7B2F62A7037C9C /* [CP] Check Pods Manifest.lock */,
+				661BA5CB22165CE8008AF1C6 /* Sources */,
+				661BA5CC22165CE8008AF1C6 /* Frameworks */,
+				661BA5CD22165CE8008AF1C6 /* Resources */,
+				37E60A7CE0BCFBEF93055EFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BengChuang;
+			productName = BengChuang;
+			productReference = 661BA5CF22165CE8008AF1C6 /* BengChuang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661BA5C722165CE8008AF1C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = KOOSPUR;
+				TargetAttributes = {
+					661BA5CE22165CE8008AF1C6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 661BA5CA22165CE8008AF1C6 /* Build configuration list for PBXProject "BengChuang" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 661BA5C622165CE8008AF1C6;
+			productRefGroup = 661BA5D022165CE8008AF1C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661BA5CE22165CE8008AF1C6 /* BengChuang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661BA5CD22165CE8008AF1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661BA5DD22165CEC008AF1C6 /* LaunchScreen.storyboard in Resources */,
+				661BA5DA22165CEC008AF1C6 /* Assets.xcassets in Resources */,
+				661BA5D822165CE8008AF1C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30DDC5BA2B7B2F62A7037C9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BengChuang-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37E60A7CE0BCFBEF93055EFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BengChuang/Pods-BengChuang-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/RJBluetooth/RJBluetooth.framework",
+				"${BUILT_PRODUCTS_DIR}/RJBluetooth_Mediator/RJBluetooth_Mediator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RJBluetooth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RJBluetooth_Mediator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BengChuang/Pods-BengChuang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661BA5CB22165CE8008AF1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661BA5D522165CE8008AF1C6 /* ViewController.swift in Sources */,
+				661BA5D322165CE8008AF1C6 /* AppDelegate.swift in Sources */,
+				661BA5EE22165D5F008AF1C6 /* RJFirmwareVersionModel.swift in Sources */,
+				661BA5ED22165D5F008AF1C6 /* RJBluetoothHelper.swift in Sources */,
+				661BA5EB22165D5F008AF1C6 /* Target_BC_BluetoothHelper.swift in Sources */,
+				661BA5EC22165D5F008AF1C6 /* CTMediator+XiaoYu_Bluetooth.swift in Sources */,
+				661BA5EA22165D5F008AF1C6 /* RJSensorModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		661BA5D622165CE8008AF1C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661BA5D722165CE8008AF1C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		661BA5DB22165CEC008AF1C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661BA5DC22165CEC008AF1C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661BA5DF22165CEC008AF1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		661BA5E022165CEC008AF1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661BA5E222165CEC008AF1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20DC962D4903C2C837B0FF95 /* Pods-BengChuang.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4JK97749S;
+				INFOPLIST_FILE = BengChuang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = coollang.BengChuang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		661BA5E322165CEC008AF1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E5A37FD6C48135C5221675 /* Pods-BengChuang.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4JK97749S;
+				INFOPLIST_FILE = BengChuang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = coollang.BengChuang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661BA5CA22165CE8008AF1C6 /* Build configuration list for PBXProject "BengChuang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661BA5DF22165CEC008AF1C6 /* Debug */,
+				661BA5E022165CEC008AF1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661BA5E122165CEC008AF1C6 /* Build configuration list for PBXNativeTarget "BengChuang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661BA5E222165CEC008AF1C6 /* Debug */,
+				661BA5E322165CEC008AF1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 661BA5C722165CE8008AF1C6 /* Project object */;
+}

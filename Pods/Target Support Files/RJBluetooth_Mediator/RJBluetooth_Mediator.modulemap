@@ -1,0 +1,6 @@
+framework module RJBluetooth_Mediator {
+  umbrella header "RJBluetooth_Mediator-umbrella.h"
+
+  export *
+  module * { export * }
+}
